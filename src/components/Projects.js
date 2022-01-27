@@ -2,10 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledSection = styled.section`
-    #projects .container{
-        display: flex;
-        justify-content: space-evenly;
-    }
+    display: flex;
+    justify-content: space-evenly;
     #projects .container .gallery{
         margin: 2% auto;
         width: 20%;
