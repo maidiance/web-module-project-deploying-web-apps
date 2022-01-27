@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledHeader=styled.header`
+    background-color: #4E365C;
+    padding: 2%;
+    margin-bottom: 2vh;
     h1{
         font-family: 'EB Garamond', serif;
         font-size: 4.5rem;
@@ -9,26 +12,19 @@ const StyledHeader=styled.header`
         color: #e4f1fe;
         margin-left: 2%;
     }
-    header {
-        padding: 2%;
-        margin-bottom: 2vh;
-    }
-    #top{
-        background-color: #4E365C;
-    }
-    #top nav{
+    nav{
         margin-left: 4%;
     }
-    #top nav button{
+    nav button{
         border-radius: 15px;
         margin: 2% 0;
         padding: 0.5% 2%;
     }
-    #top nav button:hover{
+    nav button:hover{
         scale: 110%;
         background-color: #d1a4eb;
     }
-    #top nav .home button{
+    nav .home button{
         background-color:#1d1120;
         color:#e4f1fe;
     }
