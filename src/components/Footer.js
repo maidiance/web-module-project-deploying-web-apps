@@ -2,47 +2,45 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledFooter=styled.footer`
-    footer{
-        background-color: #1d1120;
-        color: #d1a4eb;
-        display: flex;
-        justify-content: center;
-    }
-    footer h2{
+    background-color: #1d1120;
+    color: #d1a4eb;
+    display: flex;
+    justify-content: center;
+    h2{
         font-size: 3.5rem;
     }
-    footer .bottom{
+    .bottom{
         text-align: center;
         margin: 5%;
         width: 50%;
     }
-    footer button{
+    button{
         border-radius: 15px;
         width: 30%;
         height: 5vh;
         margin: 2% auto;
     }
-    footer .socialMedia{
+    .socialMedia{
         display: flex;
         justify-content: center;
         flex-direction: column;
         width: 50%;
         margin: 5%;
     }
-    footer .socialMedia h2{
+    .socialMedia h2{
         text-align: center;
     }
-    footer .socialMedia .buttons{
+    .socialMedia .buttons{
         margin: 1% 2%;
         display: flex;
         justify-content: space-around;
     }
-    footer .socialMedia .buttons button{
+    .socialMedia .buttons button{
         border-radius: 15px;
         height: 5vh;
         width: 100%;
     }
-    footer .socialMedia .buttons .social{
+    .socialMedia .buttons .social{
         width: 30%;
     }
 `

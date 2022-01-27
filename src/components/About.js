@@ -2,18 +2,16 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledSection = styled.section`
-    .about{
-        margin: 2% 0;
-        display: flex;
-        justify-content: center;
-    }
-    .about .bio{
+    margin: 2% 0;
+    display: flex;
+    justify-content: center;
+    .bio{
         display: flex;
         justify-content: flex-end;
         padding: 2%;
         width: 50%;
     }
-    .about .text{
+    .text{
         display: flex;
         flex-flow: column wrap;
         justify-content: flex-end;
@@ -22,12 +20,12 @@ const StyledSection = styled.section`
         margin-bottom: 1%;
         padding: 2%;
     }
-    .about .text h2 {
+    .text h2 {
         margin-bottom: 2vh;
         font-size: 2.5rem;
         text-transform: uppercase;
     }
-    .about .text button{
+    .text button{
         margin-bottom: 2vh;
         width: 25%;
         line-height: 1.3;
