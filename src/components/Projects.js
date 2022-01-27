@@ -2,10 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledSection = styled.section`
-    display: flex;
-    flex-wrap: wrap;
     .container {
-        flex: wrap;
+        width: 95%;
+        display: flex;
         justify-content: space-evenly;
     }
     .container .gallery{
