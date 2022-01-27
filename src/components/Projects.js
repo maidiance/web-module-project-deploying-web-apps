@@ -3,7 +3,11 @@ import styled from 'styled-components';
 
 const StyledSection = styled.section`
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    .container {
+        flex: wrap;
+        justify-content: space-evenly;
+    }
     .container .gallery{
         margin: 2% auto;
         width: 20%;
